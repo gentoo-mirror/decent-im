@@ -1,0 +1,9 @@
+dev-db/litesql 9999: 
+dev-python/cx_Freeze 5.0.1: Create standalone executables from Python scripts
+dev-python/python-nbxmpp 9999: Python library to use Jabber/XMPP networks in a non-blocking way
+dev-python/slixmpp 9999: Python library for XMPP (branched from sleekxmpp)
+net-im/biboumi 9999: Biboumi is an XMPP gateway that connects to IRC servers and translates between the two protocols
+net-im/decent-im 9999: Prepared, cutting edge XMPP server configuration
+net-im/gajim 9999: Jabber client written in PyGTK
+net-im/poezio 9999: Console XMPP client that looks like most famous IRC clients
+net-libs/botan 1.11.33 1.11.34 2.0.1 2.2.0 9999: Crypto and TLS for C++11
