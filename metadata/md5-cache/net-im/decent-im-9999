@@ -5,7 +5,7 @@ EAPI=6
 HOMEPAGE=https://decent.im
 KEYWORDS=x86 amd64
 LICENSE=GPL-3+
-RDEPEND==net-im/prosody-9999 =net-im/prosody-modules-9999 =net-im/spectrum-9999 net-im/pidgin x11-plugins/purple-facebook www-servers/nginx app-crypt/certbot dev-db/postgresql net-dns/bind-tools app-portage/smart-live-rebuild sys-apps/kexec-tools net-misc/ntp
+RDEPEND==net-im/prosody-9999 =net-im/prosody-modules-9999 =net-im/spectrum-9999 =net-im/biboumi-9999 net-im/pidgin x11-plugins/purple-facebook www-servers/nginx app-crypt/certbot dev-db/postgresql net-dns/bind-tools app-portage/smart-live-rebuild sys-apps/kexec-tools net-misc/ntp
 SLOT=0
 _eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	97ce9decef1ff4b6c5be700283f67343	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	user	8bc2845510e2109af75e3eeac607ec81
-_md5_=eb9cbbd8c8eb8f2cd48205b6fdbedaf8
+_md5_=061dce1fde19f23453fb37a5ccfbd185
