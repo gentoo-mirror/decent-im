@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst preinst unpack
+DEFINED_PHASES=config install postinst preinst unpack
 DEPEND=>=dev-vcs/git-1.8.2.1
 DESCRIPTION=Prepared, cutting edge XMPP server configuration
 EAPI=6
