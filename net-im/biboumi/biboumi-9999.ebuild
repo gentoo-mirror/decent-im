@@ -1,14 +1,13 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
-DESCRIPTION="Biboumi is an XMPP gateway that connects to IRC servers and translates between the two protocols"
+DESCRIPTION="Biboumi is an XMPP gateway that connects to IRC servers"
 HOMEPAGE="https://lab.louiz.org/louiz/biboumi"
 EGIT_REPO_URI="https://lab.louiz.org/louiz/biboumi.git"
 
-LICENSE="zlib"
+LICENSE="ZLIB"
 SLOT="0"
 KEYWORDS=""
 IUSE="postgres sqlite"
@@ -16,12 +15,12 @@ IUSE="postgres sqlite"
 DEPEND="
 dev-libs/expat
 net-dns/c-ares
-net-dns/libidn
+net-dns/libidn:=
 net-im/jabber-base
-dev-libs/botan
+dev-libs/botan:=
 net-libs/udns
 virtual/libiconv
-postgres? ( dev-db/postgresql )
+postgres? ( dev-db/postgresql:= )
 sqlite? ( dev-db/sqlite )
 "
 RDEPEND="${DEPEND}"
