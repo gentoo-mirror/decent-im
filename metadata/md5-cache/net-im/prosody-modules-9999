@@ -6,5 +6,5 @@ HOMEPAGE=https://modules.prosody.im/
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	mercurial	d22fe98ea362174612a57c233239102f
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	mercurial	d22fe98ea362174612a57c233239102f
 _md5_=74495d10b05f3bf1a9250dd75cc0f452
